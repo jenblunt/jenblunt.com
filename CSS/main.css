@@ -1,0 +1,22 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+}
+
+p {
+
+}
+
+
+.header {
+  width: 195;
+  height: 195;
+}
+
+.logo {
+  max-width: 120px;
+}
