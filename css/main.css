@@ -922,7 +922,7 @@ footer {
 
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) {
 
 .logo {
     max-width: 12em;
