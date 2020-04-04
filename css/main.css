@@ -1090,10 +1090,127 @@ a.button_c:hover {
     }
 }
 
-@media and (min-width: 2000px) {
+@media all and (min-width: 2000px) {
 
-    .content_responsive {
+    .hero {
+        height: 100vh;
+    }
+
+    a.button_a {
+        font-size: 1.5em;
+    }
+
+    .button_a img {
+        width: 20px;
+    }
+
+    .logo {
+        max-width: 20em;
+    }
+
+    .intro {
         max-width: 140em;
     }
 
+    h1 {
+        font-size: 12em;
+    }
+
+    h2 {
+        font-size: 4em;
+        margin: 2em 0 2em 0;
+    }
+
+    .arrow_down {
+        width: 4em;
+        height: 4em;
+    }
+
+    .content {
+        max-width: 140em;
+    }
+
+    .secondary {
+        font-size: 8em;
+    }
+
+    .box h2 {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 2.5em;
+    }
+
+    .main .featured {
+        max-width: 40em;
+    }
+
+    a.button_c {
+        font-size: 2em;
+    }
+
+    .skills {
+        margin: 6em 3em 3em 3em;
+    }
+
+    .skills img {
+        max-width: 12em;
+    }
+
+    .contrast {
+        font-size: 3em;
+    }
+
+    .date {
+        font-size: 3em;
+    }
+
+    ul li {
+        font-size: 2.5em;
+    }
+
+    .circle {
+        height: 18em;
+        width: 18em;
+        max-height: 18em;
+    }
+
+    .certs h3 {
+        font-size: 3em;
+    }
+
+    h4 {
+        font-size: 2.5em;
+    }
+
+    .footer_content {
+        width: 140em;
+        max-height: 16em;
+    }
+
+    .button {
+        font-size: 2.5em;
+    }
+
+    footer p {
+        margin: 0 0 0 2em;
+    }
+
+    .social_icons {
+        margin: 2em 0 2em 0;
+    }
+
+    .social_icons a {
+        padding: 0 1.5em;
+    }
+
+    .social_icons a img {
+        height: 1.5em;
+    }
+
+    .copyright {
+        font-size: 1.5em;
+        margin: 0 0 0 2.5em;
+    }
 }
