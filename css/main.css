@@ -937,6 +937,10 @@ a.button_c:hover {
         font-size: 2.5em;
     }
 
+    h3 {
+        font-size: 3.5em;
+    }
+
     .wide {
         padding: 2em 0 2em 0;
         box-sizing: border-box;
@@ -1029,6 +1033,10 @@ a.button_c:hover {
     h1 {
         font-size: 6em;
     }
+
+    .case {
+        padding: .5em;
+    }
 }
 
 @media all and (min-height: 1366px) {
@@ -1049,6 +1057,11 @@ a.button_c:hover {
         font-size: 4em;
     }
 
+    .arrow_down {
+        width: 3em;
+        height: 3em;
+    }
+
     .secondary {
         font-size: 7em;
     }
@@ -1057,8 +1070,16 @@ a.button_c:hover {
         font-size: 4em;
     }
 
+    .main  .featured {
+        max-width: 40em;
+    }
+
     p {
         font-size: 3em;
+    }
+
+    .list li {
+        font-size: 1.5em;
     }
 
     a.button_c {
@@ -1119,6 +1140,10 @@ a.button_c:hover {
     h2 {
         font-size: 4em;
         margin: 2em 0 2em 0;
+    }
+
+    h3 {
+        font-size: 4em;
     }
 
     .arrow_down {
@@ -1182,6 +1207,44 @@ a.button_c:hover {
 
     h4 {
         font-size: 2.5em;
+    }
+
+    .alt_nav {
+        max-width: 140em;
+    }
+
+    .logo_home {
+        max-width: 8em;
+    }
+
+    a.button_b {
+        font-size: 1.5em;
+    }
+
+    .header_alt {
+        background-size: cover;
+    }
+
+    .header_alt header {
+        max-width: 140em;
+    }
+
+    .case {
+        font-size: 8em;
+        padding: 1em;
+    }
+
+    .list {
+        font-size: 2.5em;
+    }
+
+    figcaption em {
+        font-size: 2.5em;
+    }
+
+    blockquote {
+        padding: 2em;
+        font-size: 5em;
     }
 
     .footer_content {
