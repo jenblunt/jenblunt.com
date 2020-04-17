@@ -1,223 +1,265 @@
+<!--
+
+    Hi! Thanks for checking out my source code.
+
+    Credits:
+
+    Design, Markup, and Styles (C) 2019 Jennifer Blunt (hi@jenblunt.com)
+
+    Icons:
+
+    * Medium, Dribble, and Twitter Icon - Icon made by http://www.freepik.com/ from www.flaticon.com (Flaticon Basic License)
+    * Github Icon - Icon made by https://www.flaticon.com/authors/dave-gandy from www.flaticon.com (CC 3.0)
+    * LinkedIn Icon - Icon made by https://www.flaticon.com/authors/simpleicon from wwww.flaticon.com (CC 3.0)
+    * SEO Icon & Puzzle Piece Icon - Icons made by https://www.flaticon.com/authors/freepik from https://www.flaticon.com/ (Flaticon Basic License)
+    * Clipboard Icon - Icon made by https://www.flaticon.com/authors/wichaiwi from https://www.flaticon.com/ (Flaticon Basic License)
+    * Download Icon - Icon made by https://www.flaticon.com/authors/those-icons from www.flaticon.com/ (Flaticon Basic License)
+
+-->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KPZH7DP');</script>
-    <!-- End Google Tag Manager -->
-    <title>Dashboard Design &amp; UX Interviews Case Study | Jennifer Blunt Portfolio</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Designing a better content reporting dashboard for government employees required 6 months of 1-on-1 interviews, analysis, prototype testing, &amp; final designs.">
-    <meta property="og:type" content="profile">
-    <meta property="og:description" content="Designing a better content reporting dashboard for government employees required 6 months of 1-on-1 interviews, analysis, prototype testing, &amp; final designs.">
-    <meta property="og:title" content="Designing a Better Dashboard for Government Employees">
-    <meta property="og:url" content="https://jenblunt.com/">
-    <meta property="og:image" content="https://jenblunt.com/images/jb_meta_logo.png">
-    <meta property="profile:first_name" content="Jennifer">
-    <meta property="profile:last_name" content="Blunt">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@jenbluntly">
-    <meta name="twitter:title" content="Designing a Better Dashboard for Government Employees">
-    <meta name="twitter:description" content="Designing a better content reporting dashboard for government employees required 6 months of 1-on-1 interviews, analysis, prototype testing, &amp; final designs.">
-    <meta name="twitter:image" content="https://jenblunt.com/images/jb_meta_logo.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Assistant|Hind+Siliguri|Montserrat&amp;display=swap" rel="stylesheet">
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KPZH7DP');
+  </script>
+  <title>Dashboard Design &amp; UX Interviews Case Study | Jennifer Blunt Portfolio</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Designing a better content reporting dashboard for government employees required 6 months of 1-on-1 interviews, analysis, prototype testing, &amp; final designs.">
+  <meta property="og:type" content="profile">
+  <meta property="og:description" content="Designing a better content reporting dashboard for government employees required 6 months of 1-on-1 interviews, analysis, prototype testing, &amp; final designs.">
+  <meta property="og:title" content="Designing a Better Dashboard for Government Employees">
+  <meta property="og:url" content="https://jenblunt.com/">
+  <meta property="og:image" content="https://jenblunt.com/images/jb_meta_logo.png">
+  <meta property="profile:first_name" content="Jennifer">
+  <meta property="profile:last_name" content="Blunt">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@jenbluntly">
+  <meta name="twitter:title" content="Designing a Better Dashboard for Government Employees">
+  <meta name="twitter:description" content="Designing a better content reporting dashboard for government employees required 6 months of 1-on-1 interviews, analysis, prototype testing, &amp; final designs.">
+  <meta name="twitter:image" content="https://jenblunt.com/images/jb_meta_logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Assistant|Hind+Siliguri|Montserrat&amp;display=swap" rel="stylesheet">
 </head>
-<body id="home">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPZH7DP"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <div class="container">
-    <div class="alt_nav">
-            <div class="logo_home">
-                <a href="/" rel="noopener"><img src="/images/jblogo_pink_outline.svg" alt="pink logo to return to home page"></a>
-            </div>
-            <div class="resume_btn">
-                <a href="/images/jblunt_ux_resume.pdf" target="_blank" rel="noopener" class="button_b">
-                <img class="white" src="/images/down-arrow.svg" alt="Download icon">
-                <img class="pink" src="/images/down-arrow_pink.svg" alt="Download icon">Resume</a>
-            </div>
+<body id="dashboard-redesign">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPZH7DP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <div class="container">
+    <div class="alt-nav">
+      <div class="logo-home">
+        <a href="/" rel="noopener"><img src="/images/jblogo_pink_outline.svg" alt="pink logo to return to home page"></a>
+      </div>
+      <div class="resume-btn">
+        <a href="/images/jblunt_ux_resume.pdf" target="_blank" rel="noopener" class="button-b">
+          <img class="white" src="/images/down-arrow.svg" alt="Download icon">
+          <img class="pink" src="/images/down-arrow_pink.svg" alt="Download icon">Resume</a>
+      </div>
     </div>
-        <div class="header_alt">
-            <header>
-            <h1 class="case">Designing a Better Dashboard for Government Employees</h1>
-            </header>
+    <div class="header-alt">
+      <header>
+        <h1 class="case">Designing a Better Dashboard for Government Employees</h1>
+      </header>
+    </div>
+    <div class="main">
+      <div class="note">
+        <div class="content">
+          <h3 class="contrast contrast-responsive"><strong>Role: </strong><em>UX Strategist</em></h3>
+          <h3 class="contrast contrast-responsive"><strong>Tools: </strong><em>Adobe XD, Excel, SuperSet, Jira, Zoom</em></h3>
+          <h3 class="contrast contrast-responsive"><strong>Deliverables: </strong><em>Interview Summaries, Research Analysis, Wireframes, Prototypes</em></h3>
+          <h3 class="contrast contrast-responsive"><strong>Sector: </strong><em>Government</em></h3>
         </div>
-        <div class="main">
-            <div class="note">
-                <div class="content">
-                    <h3 class="contrast contrast_responsive"><strong>Role: </strong><em>UX Strategist</em></h3>
-                    <h3 class="contrast contrast_responsive"><strong>Tools: </strong><em>Adobe XD, Excel, SuperSet, Jira, Zoom</em></h3>
-                    <h3 class="contrast contrast_responsive"><strong>Deliverables: </strong><em>Interview Summaries, Research Analysis, Wireframes, Prototypes</em></h3>
-                    <h3 class="contrast contrast_responsive"><strong>Sector: </strong><em>Government</em></h3>
-                </div>
-            </div>
-            <div class="content">
-                <h2 class="secondary">The Background</h2>
-                <p>Governments are complicated, and employees working for them find them just as confusing. During our engagement with a commonwealth in the United States, we worked with a group of employees from all different sectors of government to create a dashboard to help them gain insights about their content and discover ways to improve it.</p>
-                <p>Before I arrived, our team was in the early stages of helping the commonwealth create a series of dashboards for content editors. The goal was to arm them with useful data that would help them revise and optimize their existing content for increased organic traffic. To better understand which metrics needed to be included on the dashboard, and what problems content editors were trying to solve in their daily work lives, our team of Strategist's conducted 1-on-1 interviews with web editors from 10 different government departments.</p>
-                <p>Our team had conducted 2 of the 4 user interviews, and dashboards were in their first iteration, when I joined the team. It became clear right anyway that many of the people using these dashboards had a <strong>large range of experience and comfort with data and interpreting data</strong>, as well as in the frequency in which they utilized the dashboard in their work week. For many of the testers, they didn’t use the current dashboards often because <strong>they simply didn’t understand</strong> the data being conveyed and how that applied to their daily work.</p>
-                <p>The two data analysts on our team built the dashboards in Google Sheets due to its ease of connection to Google Analytics and other data sources, as well as low barrier to entry. We also chose it because the commonwealth’s reporting dashboard is cumbersome, which we will get into later.</p>
-            </div>
-            <div class="wide">
-                <figure>
-                    <img class="outline" src="/images/V1_dashboard_excel.jpg" alt="Version 1 of the dashboard in Excel">
-                    <figcaption><em>Version 1 of the dashboard in Excel</em></figcaption>
-                </figure>
-            </div>
-            <div class="content">
-                <h2 class="secondary">Tasks and Research Processes</h2>
-                <p>When I joined the team, I helped conduct user interviews, analyze the data, and rework the dashboards on a visual, as well as usability, level based on my analysis. While I originally wasn’t the lead on the account, I quickly took over managing all interviews and analysis when the lead on the account was suddenly out for an extended period of time.</p>
-                <p>The interviews were conducted using <strong>open-ended questions</strong> about the user's experience with the dashboards. These were all self-reported interviews. We were unable to perform studies of the participants actually using the dashboards and recording their behavior due to budget and time constraints. To add a way to quantitatively measure the success of the dashboards, we used a <strong>mini System Usability Survey (SUS)</strong>, which consisted of 5 questions that participants self-identified on a scale of 0 -  5 at the end of each interview.</p>
-                <p><strong>The questions:</strong></p>
-                <ul class="list">
-                    <li>I think I will use the dashboard frequently</li>
-                    <li>I find the dashboard unnecessarily complex</li>
-                    <li>I find the dashboard easy to use</li>
-                    <li>I think I would need the support of a technical person to be able to use the dashboard</li>
-                    <li>I think that most people could learn to use the dashboard very quickly</li>
-                </ul>
-            </div>
-                <div class="content">
-                    <h2 class="secondary">The Problems / Challenges</h2>
-                    <p>The dashboards were built in Google Sheets because it was quick and easy. However, the main goal was to have the dashboards live in Drupal (their CMS), which was connected to their reporting tool - <strong>SuperSet</strong>. While open-source and very powerful, SuperSet lacked a lot of functionality in terms of design. All the styling had to be coded in CSS, which for the purposes of our prototype wasn’t practical.</p>
-                    <p>The limited budget restricted the testing methods we could use to gain insights. Additionally, our testing pool was rather small and because of the length of the overall project (about 6 months), we lost several testers throughout the testing period. We would have loved to use testing tools like usertesting.com to record users doing tasks instead of relying on the user's recollection; however, it just wasn't an option due to these restrictions.</p>
-                </div>
-                <div class="content">
-                    <h2 class="secondary">Second Iteration of the Dashboards</h2>
-                    <p>After analyzing the data from the first two interviews, I began the redesign which was still limited to Google Sheets. I interviewed the users again, and many noted that they felt the dashboards were <strong>easier to understand</strong> and more visually appealing, which I believe made it feel more approachable and digestible. Users also loved the addition of the <strong>Helpful Hints</strong>, which I added to help increase the level of understanding for those who were uncomfortable with data analysis.</p>
-                </div>
-                <div class="wide">
-                    <figure>
-                        <img class="outline" src="/images/V2_dashboard_excel_sample1.jpg" alt="Metrics and Findability section of Version 2 dashboard redesign">
-                        <figcaption><em>Metrics and Findability section of Version 2 of the dashboard redesign</em></figcaption>
-                    </figure>
-                    <br>
-                    <br>
-                    <figure>
-                        <img class="outline" src="/images/V2_dashboard_excel_sample2.jpg" alt="Outcomes section of Version 2 dashboard redesign">
-                        <figcaption><em>Outcomes section of Version 2 dashboard redesign</em></figcaption>
-                    </figure>
-                </div>
-                <div class="content">
-                    <h2 class="secondary">Final Interview Analysis</h2>
-                    <p>To wrap up the project, we conducted final interviews and started analyzing the data across all three interviews. Many interviewees were pleased with the progress the dashboard had made and <strong>reported using the dashboard more often</strong>. We asked them to describe the dashboard in three words, which we took and made the word cloud below.</p>
-                    <figure>
-                        <img src="/images/dashboard_word_cloud.jpg" alt="Dashboard Word Cloud from Interviews">
-                        <figcaption><em>Most common words used by interviewees to describe the updated dashboards</em></figcaption>
-                    </figure>
-                </div>
-                <div class="content">
-                    <h3>Final Mini-SUS Analysis</h3>
-                    <p>Final min-SUS scores showed <strong>increases in the positive questions</strong> (ease of use and frequency of use) and decrease in the negative questions (complexity and technical support). There was a decrease in how easily people felt others could learn the dashboard, but we believe this is because some additional new metrics were added between the second and final interview, which were more complicated.</p>
-                    <figure>
-                        <img src="/images/min_SUS_results_table.jpg" alt="Mini-SUS results from final interviews">
-                        <figcaption><em>Mini System Usability Survey results from final interviews</em></figcaption>
-                    </figure>
-                    <h4>Most Helpful Dashboard Updates According to Interviewees</h4>
-                    <ul class="list">
-                        <li>Visual Updates</li>
-                            <ul>
-                                <li>Addition of conditional formatting to the table</li>
-                                <li>Graphics for data visualization</li>
-                                <li>Addition of threshold lines</li>
-                            </ul>
-                        <li>Application pages being included in traffic</li>
-                        <li>Helpful Hints</li>
-                        <li>Trended view</li>
-                    </ul>
-                </div>
-                <div class="content">
-                    <h2 class="secondary">Final Dashboard Design</h2>
-                    <p>Even though the project was technically over, I was asked to brainstorm what a “pie-in-the-sky” iteration could look like. I wanted to dream big, but also be realistic about the limitations of SuperSet. I tried to put together something that was approachable, easy to understand, and intuitive.</p>
-                </div>
-                    <div class="wide">
-                        <figure>
-                            <img src="/images/dashboard_2_and_3_sketch.jpg" alt="Sketch of dashboards 2 and 3 during ideation process">
-                            <figcaption><em>Sketch of dashboards 2 and 3 during ideation process</em></figcaption>
-                        </figure>
-                    </div>
-                <div class="content">
-                    <p>After sketching and prototyping all screens, I handed them over to the client. The major changes I made to the design included converting the “Helpful Hint” boxes into <strong>tooltips</strong> to make them less intrusive, adding branded colors (which had to be altered for accessibility), and changing data visualizations. The client, and main stakeholder, said to me:</p>
-                </div>
-                <blockquote>
-                “If I can make something that even remotely looks like this I will be so happy.”
-                    <div class="attribution">
-                        <p>-Product Owner and Main Stakeholder</p>
-                    </div>
-                </blockquote>
-                <div class="content">
-                    <figure>
-                        <img src="/images/final_dashboard_all_screens.png" alt="Final dashboards for all screens desktop">
-                        <figcaption><em>All dashboard design screens demonstrating tooltip states</em></figcaption>
-                    </figure>
-                </div>
-                    <div class="wide">
-                        <div class="row">
-                            <div class="column">
-                                <figure>
-                                    <img src="/images/overall_performance_home.jpg" alt="Overall Performance Home Screen Default">
-                                    <figcaption><em>Home screen Default</em></figcaption>
-                                </figure>
-                            </div>
-                            <div class="column">
-                                <figure>
-                                    <img src="/images/overall_performance_tooltip1.jpg" alt="Overall Performance Home Screen showing tooltip 1">
-                                    <figcaption><em>Home screen tooltip 1</em></figcaption>
-                                </figure>
-                            </div>
-                            <div class="column">
-                                <figure>
-                                    <img src="/images/overall_performance_tooltip2.jpg" alt="Overall Performance Home Screen showing tooltip 2">
-                                    <figcaption><em>Home screen tooltip 2</em></figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                <div class="content">
-                    <h2 class="secondary">Summary</h2>
-                    <p>Overall, I was really happy with the way this project turned out. While we were limited in our tools and methods, we were still able to gain a lot of insights about user’s data needs. There’s a lot I wish we could have done differently, but we were still able to make a positive impact on people’s daily lives. The dashboards we created make data more accessible and digestible, and helps content writers and web editors make data-driven decisions. And in turn, their creation and delivery of better content to citizen’s makes their lives a little bit brighter.</p>
-                </div>
-            </div>
-            <footer>
-                <div class="footer_content">
-                    <div class="right">
-                        <div>
-                            <a href="mailto:hi@jenblunt.com" class="button">Let's Chat</a>
-                        </div>
-                    </div>
-                    <div class="left">
-                        <div>
-                            <p class="large_font"><strong>Need to know more?</strong></p>
-                        </div>
-                        <div>
-                            <ul class="social_icons">
-                                <li><a href="https://medium.com/@jenbluntly" title="See Jennifer's Case Studies on Medium" target="_blank" rel="noopener"><img src="/images/medium_icon.png" alt="Medium icon"></a></li>
-                                <li><a href="https://dribbble.com/jenbluntly" title="See Jennifer's Designs on Dribbble" target="_blank" rel="noopener"><img src="/images/dribbble_icon.png" alt="Dribble icon"></a></li>
-                                <li><a href="https://twitter.com/jenbluntly" tile="See Jennifer's Tweets" target="_blank" rel="noopener"><img src="/images/twitter_icon.png" alt="Twitter icon"></a></li>
-                                <li><a href="https://github.com/jenblunt" title="See Jennifer's Code on Github" target="_blank" rel="noopener"><img src="/images/github_icon.png" alt="GitHub icon"></a></li>
-                                <li><a href="https://www.linkedin.com/in/jenniferblunt/" title="See Jennifer's Work on LinkedIn" target="_blank" rel="noopener"><img src="/images/linkedin_icon.png" alt="LinkedIn icon"></a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <p class="copyright">&copy; 2020 JenBlunt.com All Rights Reserved Credits in Source Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div> <!--End of Container-->
+      </div>
+      <div class="content">
+        <h2 class="secondary">The Background</h2>
+        <p>Governments are complicated, and employees working for them find them just as confusing. During our engagement with a commonwealth in the United States, we worked with a group of employees from all different sectors of government to create
+          a dashboard to help them gain insights about their content and discover ways to improve it.</p>
+        <p>Before I arrived, our team was in the early stages of helping the commonwealth create a series of dashboards for content editors. The goal was to arm them with useful data that would help them revise and optimize their existing content for
+          increased organic traffic. To better understand which metrics needed to be included on the dashboard, and what problems content editors were trying to solve in their daily work lives, our team of Strategist's conducted 1-on-1 interviews
+          with web editors from 10 different government departments.</p>
+        <p>Our team had conducted 2 of the 4 user interviews, and dashboards were in their first iteration, when I joined the team. It became clear right anyway that many of the people using these dashboards had a <strong>large range of experience
+            and comfort with data and interpreting data</strong>, as well as in the frequency in which they utilized the dashboard in their work week. For many of the testers, they didn’t use the current dashboards often because <strong>they simply
+            didn’t understand</strong> the data being conveyed and how that applied to their daily work.</p>
+        <p>The two data analysts on our team built the dashboards in Google Sheets due to its ease of connection to Google Analytics and other data sources, as well as low barrier to entry. We also chose it because the commonwealth’s reporting
+          dashboard is cumbersome, which we will get into later.</p>
+      </div>
+      <div class="wide">
+        <figure>
+          <img class="outline" src="/images/V1_dashboard_excel.jpg" alt="Version 1 of the dashboard in Excel">
+          <figcaption><em>Version 1 of the dashboard in Excel</em></figcaption>
+        </figure>
+      </div>
+      <div class="content">
+        <h2 class="secondary">Tasks and Research Processes</h2>
+        <p>When I joined the team, I helped conduct user interviews, analyze the data, and rework the dashboards on a visual, as well as usability, level based on my analysis. While I originally wasn’t the lead on the account, I quickly took over
+          managing all interviews and analysis when the lead on the account was suddenly out for an extended period of time.</p>
+        <p>The interviews were conducted using <strong>open-ended questions</strong> about the user's experience with the dashboards. These were all self-reported interviews. We were unable to perform studies of the participants actually using the
+          dashboards and recording their behavior due to budget and time constraints. To add a way to quantitatively measure the success of the dashboards, we used a <strong>mini System Usability Survey (SUS)</strong>, which consisted of 5 questions
+          that participants self-identified on a scale of 0 - 5 at the end of each interview.</p>
+        <p><strong>The questions:</strong></p>
+        <ul class="list">
+          <li>I think I will use the dashboard frequently</li>
+          <li>I find the dashboard unnecessarily complex</li>
+          <li>I find the dashboard easy to use</li>
+          <li>I think I would need the support of a technical person to be able to use the dashboard</li>
+          <li>I think that most people could learn to use the dashboard very quickly</li>
+        </ul>
+      </div>
+      <div class="content">
+        <h2 class="secondary">The Problems / Challenges</h2>
+        <p>The dashboards were built in Google Sheets because it was quick and easy. However, the main goal was to have the dashboards live in Drupal (their CMS), which was connected to their reporting tool - <strong>SuperSet</strong>. While
+          open-source and very powerful, SuperSet lacked a lot of functionality in terms of design. All the styling had to be coded in CSS, which for the purposes of our prototype wasn’t practical.</p>
+        <p>The limited budget restricted the testing methods we could use to gain insights. Additionally, our testing pool was rather small and because of the length of the overall project (about 6 months), we lost several testers throughout the
+          testing period. We would have loved to use testing tools like usertesting.com to record users doing tasks instead of relying on the user's recollection; however, it just wasn't an option due to these restrictions.</p>
+      </div>
+      <div class="content">
+        <h2 class="secondary">Second Iteration of the Dashboards</h2>
+        <p>After analyzing the data from the first two interviews, I began the redesign which was still limited to Google Sheets. I interviewed the users again, and many noted that they felt the dashboards were <strong>easier to understand</strong>
+          and more visually appealing, which I believe made it feel more approachable and digestible. Users also loved the addition of the <strong>Helpful Hints</strong>, which I added to help increase the level of understanding for those who were
+          uncomfortable with data analysis.</p>
+      </div>
+      <div class="wide">
+        <figure>
+          <img class="outline" src="/images/V2_dashboard_excel_sample1.jpg" alt="Metrics and Findability section of Version 2 dashboard redesign">
+          <figcaption><em>Metrics and Findability section of Version 2 of the dashboard redesign</em></figcaption>
+        </figure>
+        <br>
+        <br>
+        <figure>
+          <img class="outline" src="/images/V2_dashboard_excel_sample2.jpg" alt="Outcomes section of Version 2 dashboard redesign">
+          <figcaption><em>Outcomes section of Version 2 dashboard redesign</em></figcaption>
+        </figure>
+      </div>
+      <div class="content">
+        <h2 class="secondary">Final Interview Analysis</h2>
+        <p>To wrap up the project, we conducted final interviews and started analyzing the data across all three interviews. Many interviewees were pleased with the progress the dashboard had made and <strong>reported using the dashboard more
+            often</strong>. We asked them to describe the dashboard in three words, which we took and made the word cloud below.</p>
+        <figure>
+          <img src="/images/dashboard_word_cloud.jpg" alt="Dashboard Word Cloud from Interviews">
+          <figcaption><em>Most common words used by interviewees to describe the updated dashboards</em></figcaption>
+        </figure>
+      </div>
+      <div class="content">
+        <h3>Final Mini-SUS Analysis</h3>
+        <p>Final min-SUS scores showed <strong>increases in the positive questions</strong> (ease of use and frequency of use) and decrease in the negative questions (complexity and technical support). There was a decrease in how easily people felt
+          others could learn the dashboard, but we believe this is because some additional new metrics were added between the second and final interview, which were more complicated.</p>
+        <figure>
+          <img src="/images/min_SUS_results_table.jpg" alt="Mini-SUS results from final interviews">
+          <figcaption><em>Mini System Usability Survey results from final interviews</em></figcaption>
+        </figure>
+        <h4>Most Helpful Dashboard Updates According to Interviewees</h4>
+        <ul class="list">
+          <li>Visual Updates</li>
+          <ul>
+            <li>Addition of conditional formatting to the table</li>
+            <li>Graphics for data visualization</li>
+            <li>Addition of threshold lines</li>
+          </ul>
+          <li>Application pages being included in traffic</li>
+          <li>Helpful Hints</li>
+          <li>Trended view</li>
+        </ul>
+      </div>
+      <div class="content">
+        <h2 class="secondary">Final Dashboard Design</h2>
+        <p>Even though the project was technically over, I was asked to brainstorm what a “pie-in-the-sky” iteration could look like. I wanted to dream big, but also be realistic about the limitations of SuperSet. I tried to put together something
+          that was approachable, easy to understand, and intuitive.</p>
+      </div>
+      <div class="wide">
+        <figure>
+          <img src="/images/dashboard_2_and_3_sketch.jpg" alt="Sketch of dashboards 2 and 3 during ideation process">
+          <figcaption><em>Sketch of dashboards 2 and 3 during ideation process</em></figcaption>
+        </figure>
+      </div>
+      <div class="content">
+        <p>After sketching and prototyping all screens, I handed them over to the client. The major changes I made to the design included converting the “Helpful Hint” boxes into <strong>tooltips</strong> to make them less intrusive, adding branded
+          colors (which had to be altered for accessibility), and changing data visualizations. The client, and main stakeholder, said to me:</p>
+      </div>
+      <blockquote>
+        “If I can make something that even remotely looks like this I will be so happy.”
+        <div class="attribution">
+          <p>-Product Owner and Main Stakeholder</p>
+        </div>
+      </blockquote>
+      <div class="content">
+        <figure>
+          <img src="/images/final_dashboard_all_screens.png" alt="Final dashboards for all screens desktop">
+          <figcaption><em>All dashboard design screens demonstrating tooltip states</em></figcaption>
+        </figure>
+      </div>
+      <div class="wide">
+        <div class="row">
+          <div class="column">
+            <figure>
+              <img src="/images/overall_performance_home.jpg" alt="Overall Performance Home Screen Default">
+              <figcaption><em>Home screen Default</em></figcaption>
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              <img src="/images/overall_performance_tooltip1.jpg" alt="Overall Performance Home Screen showing tooltip 1">
+              <figcaption><em>Home screen tooltip 1</em></figcaption>
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              <img src="/images/overall_performance_tooltip2.jpg" alt="Overall Performance Home Screen showing tooltip 2">
+              <figcaption><em>Home screen tooltip 2</em></figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h2 class="secondary">Summary</h2>
+        <p>Overall, I was really happy with the way this project turned out. While we were limited in our tools and methods, we were still able to gain a lot of insights about user’s data needs. There’s a lot I wish we could have done differently,
+          but we were still able to make a positive impact on people’s daily lives. The dashboards we created make data more accessible and digestible, and helps content writers and web editors make data-driven decisions. And in turn, their creation
+          and delivery of better content to citizen’s makes their lives a little bit brighter.</p>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <div class="right">
+          <div>
+            <a href="mailto:hi@jenblunt.com" class="button">Let's Chat</a>
+          </div>
+        </div>
+        <div class="left">
+          <div>
+            <p class="large-font"><strong>Need to know more?</strong></p>
+          </div>
+          <div>
+            <ul class="social-icons">
+              <li><a href="https://medium.com/@jenbluntly" title="See Jennifer's Case Studies on Medium" target="_blank" rel="noopener"><img src="/images/medium_icon.png" alt="Medium icon"></a></li>
+              <li><a href="https://dribbble.com/jenbluntly" title="See Jennifer's Designs on Dribbble" target="_blank" rel="noopener"><img src="/images/dribbble_icon.png" alt="Dribble icon"></a></li>
+              <li><a href="https://twitter.com/jenbluntly" tile="See Jennifer's Tweets" target="_blank" rel="noopener"><img src="/images/twitter_icon.png" alt="Twitter icon"></a></li>
+              <li><a href="https://github.com/jenblunt" title="See Jennifer's Code on Github" target="_blank" rel="noopener"><img src="/images/github_icon.png" alt="GitHub icon"></a></li>
+              <li><a href="https://www.linkedin.com/in/jenniferblunt/" title="See Jennifer's Work on LinkedIn" target="_blank" rel="noopener"><img src="/images/linkedin_icon.png" alt="LinkedIn icon"></a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="copyright">&copy; 2020 JenBlunt.com All Rights Reserved Credits in Source Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
