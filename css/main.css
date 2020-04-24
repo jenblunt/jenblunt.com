@@ -827,6 +827,11 @@ a.button-c:hover {
     font-size: 3em;
   }
 
+  figure {
+    margin: .5em;
+    text-align: center;
+  }
+
   figcaption em {
     text-align: center;
   }
