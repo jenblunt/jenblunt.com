@@ -179,6 +179,14 @@ h2 {
   margin: 0;
 }
 
+.secondary-alt {
+  font-family: 'Assistant', Regular;
+  color: #89023E;
+  text-align: left;
+  font-size: 5em;
+  margin: 0;
+}
+
 h3 {
   font-family: 'Assistant', Regular;
   color: #434343;
@@ -298,6 +306,12 @@ blockquote {
   padding: 8em 0 8em 0;
 }
 
+img.half-width {
+  background-color: #f6f8ff;
+  width: 50%;
+  padding: 4em;
+}
+
 .wide-img {
   background-color: #f6f8ff;
   width: 100%;
@@ -314,9 +328,34 @@ blockquote {
   padding: 6em;
 }
 
+.wide-teal {
+  background-color: #34ADAD;
+  width: 100%;
+  padding: 8em 0 8em 0;
+}
+
+.secondary-center {
+  font-family: 'Assistant', Regular;
+  color: #F6F8FF;
+  text-align: center;
+  font-size: 5em;
+  margin: 0;
+}
+
+.p-center {
+  font-size: 2em;
+  color: #302F2F;
+  text-align: center;
+}
+
 .card {
   padding: 4em;
   text-align: left;
+}
+
+.card-a {
+  padding: 2em;
+  text-align: center;
 }
 
 .card h2 {
@@ -348,6 +387,32 @@ blockquote {
   background-color: #006060;
   border-radius: 0 6px 6px 0;
   padding: 3em 2em;
+}
+
+.shot-t {
+  background-color: #CACDD9;
+  border-radius: 0 6px 6px 0;
+  padding: 2em;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 5px;
+  margin: auto;
+  max-width: 90em;
+  padding: 2em;
+}
+
+.sample {
+  background-color: white;
+  border-radius: 6px;
+  margin: 50px 20px 0px 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 10px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  width: 35em;
+  flex-direction: column-reverse;
 }
 
 .row {
