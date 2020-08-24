@@ -92,7 +92,7 @@ a.button-a:hover {
 header {
   text-align: center;
   color: white;
-  padding: 10em 1em 6em 1em;
+  padding: 15em 1em 15em 1em;
   margin: 0 auto;
 }
 
@@ -100,6 +100,13 @@ header {
   max-width: 100%;
   background-image: url("/images/hero_work_background_1.jpg");
   text-align: center;
+}
+
+.header-sample {
+  max-width: 100%;
+  background-image: url("/images/Hero_work_sample_background.jpg");
+  text-align: center;
+  background-position: center;
 }
 
 .header-alt header {
