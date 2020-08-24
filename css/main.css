@@ -92,7 +92,7 @@ a.button-a:hover {
 header {
   text-align: center;
   color: white;
-  padding: 10em 1em 6em 1em;
+  padding: 15em 1em 15em 1em;
   margin: 0 auto;
 }
 
@@ -100,6 +100,13 @@ header {
   max-width: 100%;
   background-image: url("/images/hero_work_background_1.jpg");
   text-align: center;
+}
+
+.header-sample {
+  max-width: 100%;
+  background-image: url("/images/Hero_work_sample_background.jpg");
+  text-align: center;
+  background-position: center;
 }
 
 .header-alt header {
@@ -174,6 +181,14 @@ h2 {
 .secondary {
   font-family: 'Assistant', Regular;
   color: #006060;
+  text-align: left;
+  font-size: 5em;
+  margin: 0;
+}
+
+.secondary-alt {
+  font-family: 'Assistant', Regular;
+  color: #89023E;
   text-align: left;
   font-size: 5em;
   margin: 0;
@@ -298,6 +313,12 @@ blockquote {
   padding: 8em 0 8em 0;
 }
 
+img.half-width {
+  background-color: #f6f8ff;
+  width: 50%;
+  padding: 4em;
+}
+
 .wide-img {
   background-color: #f6f8ff;
   width: 100%;
@@ -314,9 +335,34 @@ blockquote {
   padding: 6em;
 }
 
+.wide-teal {
+  background-color: #34ADAD;
+  width: 100%;
+  padding: 8em 0 8em 0;
+}
+
+.secondary-center {
+  font-family: 'Assistant', Regular;
+  color: #F6F8FF;
+  text-align: center;
+  font-size: 5em;
+  margin: 0;
+}
+
+.p-center {
+  font-size: 2em;
+  color: #302F2F;
+  text-align: center;
+}
+
 .card {
   padding: 4em;
   text-align: left;
+}
+
+.card-a {
+  padding: 2em;
+  text-align: center;
 }
 
 .card h2 {
@@ -348,6 +394,32 @@ blockquote {
   background-color: #006060;
   border-radius: 0 6px 6px 0;
   padding: 3em 2em;
+}
+
+.shot-t {
+  background-color: #CACDD9;
+  border-radius: 0 6px 6px 0;
+  padding: 2em;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 5px;
+  margin: auto;
+  max-width: 90em;
+  padding: 2em;
+}
+
+.sample {
+  background-color: white;
+  border-radius: 6px;
+  margin: 50px 20px 0px 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 10px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  width: 35em;
+  flex-direction: column-reverse;
 }
 
 .row {
@@ -697,8 +769,20 @@ a.button-c:hover {
     box-sizing: border-box;
   }
 
+  .wide-teal {
+    padding: 4em 0 4em 0;
+  }
+
   .secondary {
     font-size: 3em;
+  }
+
+  .secondary-alt {
+      font-size: 3em;
+  }
+
+  .secondary-center {
+      font-size: 3em;
   }
 
   .date {
@@ -725,6 +809,10 @@ a.button-c:hover {
     text-align: left;
   }
 
+  .p-center {
+    font-size: 1.5em;
+  }
+
   .box {
     flex-direction: column-reverse;
     margin-top: 1.5em;
@@ -737,6 +825,19 @@ a.button-c:hover {
   }
 
   .card {
+    padding: 1em;
+  }
+
+  .card-row {
+    flex-direction: column;
+  }
+
+  .sample {
+    width: auto;
+    margin: 0 0 3em 0;
+  }
+
+  .card-a {
     padding: 1em;
   }
 
@@ -759,6 +860,10 @@ a.button-c:hover {
     box-sizing: border-box;
     text-align: center;
     border-radius: 6px 6px 0 0;
+  }
+
+  .shot-t {
+    padding: 1em;
   }
 
   .skills {
@@ -1071,6 +1176,13 @@ a.button-c:hover {
     font-size: 4em;
   }
 
+  header {
+    text-align: center;
+    color: white;
+    padding: 6em 1em 6em 1em;
+    margin: 0 auto;
+  }
+
   .arrow-down {
     width: 3em;
     height: 3em;
@@ -1080,8 +1192,24 @@ a.button-c:hover {
     font-size: 7em;
   }
 
+  .secondary-alt {
+    font-size: 7em;
+  }
+
+  .card-row {
+    display: grid;
+  }
+
+  .secondary-center {
+    font-size: 7em;
+  }
+
   .box h2 {
     font-size: 4em;
+  }
+
+  .sample {
+    width: 50em;
   }
 
   .main .featured {
@@ -1091,6 +1219,10 @@ a.button-c:hover {
   p {
     font-size: 3em;
   }
+
+.p-center {
+    font-size: 3em;
+}
 
   .list li {
     font-size: 1.5em;
@@ -1149,11 +1281,12 @@ a.button-c:hover {
 
   h1 {
     font-size: 12em;
+    padding-top: 1em;
   }
 
   h2 {
     font-size: 4em;
-    margin: 2em 0 2em 0;
+    margin: 3em 0 3em 0;
   }
 
   h3 {
@@ -1173,12 +1306,32 @@ a.button-c:hover {
     font-size: 8em;
   }
 
+  .secondary-alt {
+    font-size: 8em;
+  }
+
+  .secondary-center {
+    font-size: 8em;
+  }
+
   .box h2 {
     font-size: 4em;
   }
 
   p {
     font-size: 2.5em;
+  }
+
+  .card-row {
+    max-width: 140em;
+  }
+
+  .sample {
+    width: 50em;
+  }
+
+  .p-center {
+    font-size: 3em;
   }
 
   .main .featured {
